@@ -7,10 +7,8 @@
 }
 
 .main__new-subject {
-    margin-bottom: 2.4rem;
+    margin-bottom: 7rem;
 }
-
-
 
 .custom-checkbox {
     display: inline-block;
@@ -52,8 +50,6 @@
 .checkbox:checked~.checkmark img {
     display: block;
 }
-
-
 
 .main__input {
     width: 85%;

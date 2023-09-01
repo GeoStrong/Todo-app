@@ -27,3 +27,7 @@
 .mobile-style button {
     font-size: 2.5rem;
 }
+
+.clear:focus {
+    color: var(--color-button-remove);
+}
