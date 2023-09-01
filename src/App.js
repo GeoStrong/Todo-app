@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import bgLightDesctop from '../src/assets/bg-desktop-light.jpg';
 import bgLightMobile from '../src/assets/bg-mobile-light.jpg';
 import Main from './components/Main/Main';

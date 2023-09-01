@@ -38,7 +38,7 @@ const todoReducer = (state, action) => {
 };
 
 const MainContent = ({ todoList, onRemove }) => {
-  const [isCompleted, setIsCompleted] = useState(false);
+  const [, setIsCompleted] = useState(false);
   const [todoState, dispatch] = useReducer(todoReducer, initialTask);
 
   useEffect(() => {
