@@ -13,7 +13,7 @@
 }
 
 .alert {
-    color: var(--color-input);
+    color: var(--color-button-hover);
     text-align: center;
     font-size: 2rem;
 }
