@@ -38,14 +38,14 @@ const Main = () => {
     <main className="main">
       <div className="container">
         <Header />
-        <main className="container__main">
+        <section className="container__section">
           <NewTodo onTodoChange={todoChangeHandler} />
           {todo.length > 0 ? (
             <MainContent todoList={todo} onRemove={todoRemoveHandler} />
           ) : (
             <p className="alert">Create a new to-do task</p>
           )}
-        </main>
+        </section>
         {todo.length > 1 && <Footer />}
       </div>
     </main>
