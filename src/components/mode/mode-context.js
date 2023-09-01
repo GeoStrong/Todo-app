@@ -19,8 +19,6 @@ export const ModeContextProvider = (props) => {
     setMode((prevMode) => !prevMode);
   };
 
-  console.log(mode);
-
   return (
     <ModeContext.Provider value={{ mode, onModeChange: modeChangeHandler }}>
       {props.children}
