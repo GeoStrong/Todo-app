@@ -43,7 +43,7 @@ const Main = () => {
           {todo.length > 0 ? (
             <MainContent todoList={todo} onRemove={todoRemoveHandler} />
           ) : (
-            <p className="alert">Create new to-do task</p>
+            <p className="alert">Create a new to-do task</p>
           )}
         </main>
         {todo.length > 1 && <Footer />}
