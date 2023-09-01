@@ -4,7 +4,7 @@ import './Tools.css';
 
 const Tools = ({ leftItems, onRenderTodo }) => {
   const screenWidth = window.screen.width;
-  const widthCheck = screenWidth <= 375;
+  const widthCheck = screenWidth <= 576;
 
   const filterContainer = (
     <div className={`${widthCheck && 'mobile-style'} filter-container`}>
