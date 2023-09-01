@@ -28,6 +28,10 @@
     font-size: 2.5rem;
 }
 
+.active-btn {
+    color: var(--color-primary-blue);
+}
+
 .clear:focus {
     color: var(--color-button-remove);
 }
