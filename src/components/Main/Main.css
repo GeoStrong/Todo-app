@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.container {
+    width: 54rem;
+}
+
+.container__main {
+    margin-bottom: 4.9rem;
+}
+
+.alert {
+    color: var(--color-input);
+    text-align: center;
+    font-size: 2rem;
+}

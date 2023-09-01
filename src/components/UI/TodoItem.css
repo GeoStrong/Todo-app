@@ -1,0 +1,12 @@
+.content__item {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.subject {
+    margin: 0;
+}
+
+.completed {
+    color: var(--color-secondary);
+    text-decoration-line: line-through;
+}

@@ -1,0 +1,25 @@
+.main__new-subject, .main__content {
+    border-radius: 5px;
+    background: var(--color-input);
+    box-shadow: var(--box-shadow);
+}
+
+.content__list {
+    max-height: 40rem;
+    overflow-y: auto;
+}
+
+.main__input, .content__list {
+    color: var(--color-todo-text);
+    font-size: 1.8rem;
+    letter-spacing: -0.25px;
+}
+
+.content__list {
+    font-size: 1.3rem;
+}
+
+.empty {
+    text-align: center;
+    font-size: 2rem;
+}

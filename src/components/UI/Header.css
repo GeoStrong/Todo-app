@@ -1,0 +1,18 @@
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.8rem;
+}
+
+.header__title {
+    margin: 0;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+
+.header__button img {
+    border-radius: 50%;
+}

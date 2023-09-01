@@ -1,0 +1,60 @@
+.todo-element {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-height: 6rem;
+    padding: 2rem 0 2rem 2.4rem;
+}
+
+.main__new-subject {
+    margin-bottom: 2.4rem;
+}
+
+
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    opacity: 0;
+    top: -3rem;
+    left: -2rem;
+    cursor: pointer;
+}
+
+.checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1.2rem;
+    height: 2.3rem;
+    width: 2.3rem;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+}
+
+.checkmark img {
+    display: none;
+}
+
+.custom-checkbox .checkbox:checked~.checkmark {
+    background: var(--color-gradient);
+    border: none;
+}
+
+.checkbox:checked~.checkmark img {
+    display: block;
+}
+
+
+
+.main__input {
+    width: 85%;
+}

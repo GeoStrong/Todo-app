@@ -1,0 +1,29 @@
+.content__tools, .filter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__tools {
+    padding: 1.6rem 2.4rem;
+}
+
+.filter-container {
+    gap: 1.9rem;
+}
+
+.tools-style {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: -0.194px;
+}
+
+.mobile-style {
+    justify-content: center;
+    padding: 1.5rem 0;
+    border-radius: 5px;
+}
+
+.mobile-style button {
+    font-size: 2.5rem;
+}

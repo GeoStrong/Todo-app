@@ -1,0 +1,50 @@
+@media (max-width: 1024px) {
+    html {
+        font-size: calc(100vw / 1024 * 10);
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: calc(100vw / 768 * 10);
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: calc(100vw / 576 * 10);
+    }
+
+    body {
+        background-image: var(--background-mobile-img);
+        background-size: contain;
+    }
+}
+
+@media (min-height: 992px) and (min-width: 768px) {
+    html {
+        font-size: calc(100vw / 576 * 10);
+    }
+}
+
+@media(hover:hover) {
+    .header__button:hover img {
+        background: var(--color-gradient);
+    }
+
+    .tools__btn:hover {
+        color: var(--color-secondary-light-gray)
+    }
+
+    .clear:hover, .clear:focus {
+        color: var(--color-button-remove);
+    }
+
+    .main__new-subject:hover {
+        background-color: var(--color-background);
+    }
+
+    .custom-checkbox:hover .checkmark {
+        border-color: var(--color-gradient);
+    }
+}
